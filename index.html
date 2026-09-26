@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="ko" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#1F3B35">
+<meta name="robots" content="noindex, nofollow">
+<!-- 카톡·LINE 미리보기: 배포 후 og:image를 전체 URL로 바꾸세요 -->
+<meta property="og:title" content="정충용 ♥ 이소연 결혼합니다">
+<meta property="og:description" content="2027.07.03 SAT 1:10 PM · 포레스트 한울 웨딩">
+<meta property="og:image" content="https://아이디.github.io/wedding/og.jpg">
+<meta property="og:type" content="website">
+<style>*,*::before,*::after{box-sizing:border-box}html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>포레스트 한울 청첩장 V4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Nanum+Myeongjo:wght@400;700;800&family=Gowun+Dodum&family=Shippori+Mincho:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#E6E1D6; --ivory:#FBF8F1; --paper:#F5F0E6; --env:#1F3B35; --env2:#172D29;
+    --gold:#9A7641; --gold-lt:#DCC48E; --ink:#24231F; --mute:#5F5A51; --soft:#8A8478; --line:#E4DCCB; --red:#9C4A3E;
+    --caps:"Cinzel","Trajan Pro",Georgia,serif;
+    --display:"Cormorant Garamond","Cormorant",Georgia,serif;
+    --serif:"Nanum Myeongjo","AppleMyungjo",serif;
+    --sans:"Gowun Dodum","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    color-scheme:light;
+  }
+  html[lang="ja"]{
+    --serif:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+    --sans:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  }
+  html[lang="ja"] body{word-break:normal}
+  html[lang="ja"] .who .ko{font-size:25px;letter-spacing:.04em;padding-left:.04em}
+  html[lang="ja"] .person .name{font-size:18.5px;letter-spacing:0;white-space:nowrap}
+  html[lang="ja"] .greeting{font-size:15.5px}
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  *{-webkit-tap-highlight-color:transparent}
+  body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased;word-break:keep-all;line-break:strict}
+  .card{max-width:440px;margin:0 auto;background:var(--ivory);box-shadow:0 0 60px rgba(31,59,53,.14);overflow:hidden;position:relative}
+  section{padding-block:84px;padding-inline:28px;text-align:center;position:relative}
+  p{margin:0}
+  .label{font-family:var(--caps);font-weight:600;font-size:11.5px;letter-spacing:.24em;color:var(--gold);margin:0 0 14px}
+  h2{font-family:var(--serif);font-weight:700;font-size:20px;color:var(--env);margin:0;letter-spacing:.04em;text-wrap:balance}
+  .rule{width:28px;height:1px;background:var(--gold);opacity:.6;margin:22px auto}
+  .todo{color:var(--gold);border-bottom:1px dashed var(--gold-lt);padding:0 2px;font-size:.92em}
+  .tinted{background:var(--paper)}
+  .num{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+
+  /* ── 언어 전환 ── */
+  .lang,.bgm{transition:opacity .35s,transform .35s}
+  .ctl-hide{opacity:0;transform:translateY(-12px);pointer-events:none}
+  .lang{position:fixed;z-index:8;top:calc(14px + env(safe-area-inset-top,0px));left:max(14px,calc(50% - 206px));display:flex;border:1px solid rgba(220,196,142,.55);border-radius:20px;overflow:hidden;background:rgba(31,59,53,.78);backdrop-filter:blur(4px)}
+  .lang button{font:inherit;font-size:12.5px;border:0;background:transparent;color:rgba(244,238,223,.75);padding:8px 12px;cursor:pointer;min-height:36px;line-height:1}
+  .lang button[aria-pressed="true"]{background:var(--gold-lt);color:var(--env);font-weight:700}
+  .lang button:focus-visible{outline:2px solid var(--gold-lt);outline-offset:-3px}
+
+  /* ── 1. 봉투 ── */
+  .intro{background:radial-gradient(120% 70% at 50% 0%,#29483F 0%,var(--env) 55%,var(--env2) 100%);padding-block:92px 72px;color:var(--gold-lt);overflow:hidden}
+  .intro .label{color:var(--gold-lt);opacity:.9}
+  #dust{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;pointer-events:none;z-index:15}
+  .env{position:relative;width:min(290px,100%);aspect-ratio:3/2;margin:128px auto 0;perspective:900px;cursor:pointer}
+  .env-back{position:absolute;inset:0;border-radius:3px;background:
+      repeating-linear-gradient(45deg,rgba(154,118,65,.2) 0 1px,transparent 1px 12px),
+      repeating-linear-gradient(-45deg,rgba(154,118,65,.2) 0 1px,transparent 1px 12px),#1B332E}
+  .letter{position:absolute;left:7%;right:7%;top:8%;height:86%;background:var(--ivory);border-radius:2px;box-shadow:0 2px 12px rgba(0,0,0,.2);
+          display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:22px;gap:2px;transition:transform 1.2s cubic-bezier(.2,.8,.2,1) .5s;z-index:2}
+  .letter::before{content:"";position:absolute;inset:8px;border:1px solid rgba(220,196,142,.7);pointer-events:none}
+  .letter .l1{font-family:var(--caps);font-weight:600;font-size:10px;letter-spacing:.28em;color:var(--gold);text-transform:uppercase}
+  .letter .l2{font-family:var(--display);font-style:italic;font-weight:600;font-size:25px;line-height:1.15;color:var(--env);margin-top:2px}
+  .letter .l-rule{width:24px;height:1px;background:var(--gold);opacity:.7;margin:6px 0 4px}
+  .letter .l3{font-family:var(--caps);font-weight:600;font-size:10.5px;letter-spacing:.24em;color:var(--ink)}
+  .env-front{position:absolute;inset:0;z-index:3;pointer-events:none;border-radius:3px;
+     background:linear-gradient(to top right,#EFE7D6 50%,transparent 50.3%) left/50.2% 100% no-repeat,
+                linear-gradient(to top left,#EBE2CF 50%,transparent 50.3%) right/50.2% 100% no-repeat}
+  .env-front::after{content:"";position:absolute;left:0;right:0;bottom:0;height:58%;background:#F2EADA;clip-path:polygon(0 100%,50% 18%,100% 100%)}
+  .flap{position:absolute;left:0;right:0;top:0;height:62%;z-index:4;transform-origin:top;transition:transform .8s ease,z-index 0s linear .4s;
+        clip-path:polygon(0 0,100% 0,50% 100%);background:#E6DBC4}
+  .flap::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity 0s linear .4s;background:
+      repeating-linear-gradient(45deg,rgba(154,118,65,.3) 0 1px,transparent 1px 12px),
+      repeating-linear-gradient(-45deg,rgba(154,118,65,.3) 0 1px,transparent 1px 12px),#1B332E}
+  .seal{position:absolute;left:50%;top:62%;transform:translate(-50%,-50%);z-index:5;width:54px;height:54px;border-radius:50%;border:0;cursor:pointer;padding:0;
+        background:radial-gradient(circle at 36% 30%,#9E584C,#86443A 60%,#6A342C);box-shadow:0 2px 6px rgba(0,0,0,.28),inset 0 0 0 4px rgba(0,0,0,.08);transition:opacity .4s,transform .4s}
+  .seal svg{width:100%;height:100%;display:block}
+  .seal text{font-family:var(--display);font-weight:600;fill:#EED7C6}
+  .seal:focus-visible{outline:2px solid var(--gold-lt);outline-offset:4px}
+  .env.open .flap{transform:rotateX(180deg);z-index:1}
+  .env.open .flap::after{opacity:1}
+  .env:not(.open) .letter{visibility:hidden}
+  .env.open .seal{opacity:0;transform:translate(-50%,-50%) scale(1.25);pointer-events:none;transition:opacity .45s ease-out,transform .45s ease-out}
+  .env.open .letter{transform:translateY(-52%)}
+  .tap{margin-top:34px;font-family:var(--serif);font-size:14px;letter-spacing:.08em;color:#E9D8AF;display:flex;align-items:center;justify-content:center;gap:12px;transition:opacity .5s;animation:breathe 3.2s ease-in-out infinite}
+  .tap::before,.tap::after{content:"";width:18px;height:1px;background:currentColor;opacity:.5}
+  @keyframes breathe{50%{opacity:.55}}
+  .env.open ~ .tap{opacity:0;animation:none}
+  .scroll-cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);font-family:var(--caps);font-size:10px;letter-spacing:.3em;color:rgba(233,216,175,.8);opacity:0;transition:opacity .8s 1.6s}
+  .scroll-cue::after{content:"";display:block;width:1px;height:22px;background:currentColor;margin:8px auto 0;opacity:.6}
+  .intro.opened .scroll-cue{opacity:1}
+
+  /* ── 2. 이름 ── */
+  .hero{padding-block:96px 72px}
+  .who{display:grid;justify-items:center;gap:2px}
+  .who .en{font-family:var(--caps);font-weight:600;font-size:13px;letter-spacing:.32em;color:var(--gold);padding-left:.32em}
+  .who .ko{font-family:var(--serif);font-weight:800;font-size:30px;color:var(--env);letter-spacing:.1em;padding-left:.1em;line-height:1.4}
+  .amp{font-family:var(--display);font-style:italic;font-weight:500;font-size:30px;color:var(--gold);line-height:1;margin:18px 0}
+  .hero-when{margin-top:52px;font-family:var(--display);font-weight:600;font-size:21px;letter-spacing:.08em;color:var(--ink)}
+  .hero-where{margin-top:6px;font-size:15px;color:var(--mute)}
+
+  /* ── 3. 날짜 ── */
+  .bigdate{font-family:var(--display);font-weight:600;font-size:56px;line-height:1;letter-spacing:.04em;color:var(--env);margin:4px 0 18px}
+  .bigdate span{color:var(--gold);font-size:34px;vertical-align:8px;margin:0 8px}
+  .when-day{font-family:var(--serif);font-weight:700;font-size:17px}
+  .when-time{font-size:15.5px;color:var(--mute);margin-top:2px}
+  .cal{max-width:292px;margin:40px auto 0}
+  .cal-head{font-family:var(--caps);font-weight:600;letter-spacing:.2em;color:var(--gold);font-size:12.5px;margin-bottom:14px}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);row-gap:2px;font-size:14.5px;color:var(--ink)}
+  .cal-grid span{height:36px;display:grid;place-items:center;position:relative;z-index:0}
+  .cal-grid .dow{font-size:12px;color:var(--soft);height:28px}
+  .cal-grid .sun{color:var(--red)}
+  .cal-grid .day-on{color:#fff;font-weight:700}
+  .cal-grid .day-on::before{content:"";position:absolute;width:32px;height:32px;border-radius:50%;background:var(--env);z-index:-1}
+  .dday{margin-top:34px;font-family:var(--serif);font-size:15.5px;color:var(--ink)}
+  .dday b{font-family:var(--display);font-weight:600;font-size:20px;color:var(--red);letter-spacing:.02em}
+  .textlink{display:inline-block;margin-top:18px;font-size:14px;color:var(--mute);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--gold-lt);padding:8px 4px}
+  .textlink:focus-visible{outline:2px solid var(--env);outline-offset:2px}
+
+  /* ── 4. 인사말 ── */
+  .greeting{font-family:var(--serif);font-size:16px;line-height:2.4;color:var(--ink);margin-top:34px}
+
+  /* ── 5. 두 사람 ── */
+  .couple{padding-top:0;padding-bottom:64px}
+  .pair{display:grid;grid-template-columns:1fr 1px 1fr;gap:18px;align-items:start}
+  .pair .bar{background:var(--line);height:100%}
+  .person .parents{font-size:14px;color:var(--mute);line-height:1.7;min-height:3.4em}
+  .person .role{font-size:13px;color:var(--soft);margin-top:4px}
+  .person .name{font-family:var(--serif);font-weight:800;font-size:24px;color:var(--env);letter-spacing:.08em;line-height:1.4;margin-top:2px}
+
+  /* ── 6. 사진 ── */
+  .banner{position:relative;margin:0;aspect-ratio:4/5;max-width:100%;overflow:hidden;background:var(--env)}
+  .banner img{width:100%;height:100%;object-fit:cover;display:block}
+  .ph{position:absolute;inset:0;display:grid;place-items:center;align-content:center;gap:4px;color:var(--gold-lt);font-size:13px;background:#23413A}
+  .ph b{font-family:var(--caps);font-weight:500;font-size:13px;letter-spacing:.24em}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:34px}
+  .g-item{position:relative;aspect-ratio:3/4;max-width:100%;overflow:hidden;border:0;padding:0;cursor:zoom-in;background:var(--env)}
+  .g-item img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .g-item:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .g-hint{margin-top:16px;font-size:13.5px;color:var(--soft)}
+  .lightbox{position:fixed;inset:0;z-index:20;overscroll-behavior:contain;touch-action:pan-y pinch-zoom;background:#0F1C19;display:grid;grid-template-rows:auto 1fr auto;padding:calc(12px + env(safe-area-inset-top,0px)) 12px calc(18px + env(safe-area-inset-bottom,0px))}
+  .lightbox[hidden]{display:none}
+  .lb-top{display:flex;justify-content:space-between;align-items:center;color:var(--gold-lt);font-family:var(--display);font-size:16px;letter-spacing:.1em;padding:4px 6px}
+  .lb-stage{position:relative;min-height:0;overflow:hidden;width:100%;max-width:820px;margin:8px auto}
+  .lb-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;max-width:none}
+  .lb-stage .ph{position:absolute;inset:0;margin:auto;width:min(300px,80vw);height:auto;aspect-ratio:3/4}
+  .lb-nav{display:flex;justify-content:center;gap:14px}
+  .lb-btn{font:inherit;background:transparent;border:1px solid rgba(220,196,142,.5);color:var(--gold-lt);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:18px;line-height:1}
+  .lb-btn:focus-visible{outline:2px solid var(--gold-lt);outline-offset:2px}
+
+  /* ── 7. 안내 · 오시는 길 ── */
+  .info{margin-top:34px;text-align:left;display:grid;gap:22px}
+  .info dt{font-family:var(--serif);font-weight:700;font-size:15.5px;color:var(--env)}
+  .info dd{margin:4px 0 0;font-size:15px;color:var(--ink);line-height:1.75}
+  .place{font-family:var(--serif);font-weight:700;font-size:18px;color:var(--env);margin-top:30px}
+  .addr{font-size:15px;color:var(--mute);margin-top:4px}
+  .addr-ko{margin:16px auto 0;font-size:13.5px;line-height:1.7;color:var(--mute);background:var(--ivory);border:1px solid var(--line);padding:12px 14px;max-width:100%}
+  .addr-ko b{display:block;font-size:15.5px;color:var(--ink);margin-top:4px}
+  .links{display:grid;grid-template-columns:repeat(3,1fr);margin-top:26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .links a,.links button{font:inherit;font-size:14px;color:var(--env);background:none;border:0;padding:14px 4px;min-height:50px;cursor:pointer;text-decoration:none;position:relative;display:grid;place-items:center;line-height:1.3}
+  .links > * + *::before{content:"";position:absolute;left:0;top:30%;height:40%;width:1px;background:var(--line)}
+  .links a:focus-visible,.links button:focus-visible{outline:2px solid var(--env);outline-offset:-2px}
+  .route{margin-top:30px}
+
+  /* ── 8. 계좌 ── */
+  .acct-intro{font-size:15px;color:var(--mute);margin-top:22px;line-height:1.8}
+  #accounts{margin-top:30px;text-align:left}
+  details{border-top:1px solid var(--line)}
+  details:last-of-type{border-bottom:1px solid var(--line)}
+  summary{list-style:none;cursor:pointer;padding:18px 2px;font-family:var(--serif);font-weight:700;font-size:16px;color:var(--env);display:flex;justify-content:space-between;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-family:var(--display);font-size:22px;font-weight:500;color:var(--gold);line-height:1}
+  details[open] summary::after{content:"−"}
+  summary:focus-visible{outline:2px solid var(--env);outline-offset:2px}
+  .acct{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 2px 16px;font-size:15px}
+  .acct .who{color:var(--soft);font-size:13.5px}
+  .acct .no{word-break:break-all}
+  .copy{font:inherit;font-size:13.5px;color:var(--env);background:none;border:0;border-bottom:1px solid var(--gold-lt);padding:8px 2px;cursor:pointer;flex-shrink:0}
+  .copy:focus-visible{outline:2px solid var(--env);outline-offset:2px}
+
+  footer{background:var(--env);color:#EFE7D6;padding-block:76px 84px;padding-inline:28px;text-align:center;font-size:15px}
+  footer .fin{font-family:var(--display);font-style:italic;font-weight:500;font-size:38px;color:var(--gold-lt);line-height:1.2}
+  footer .sig{font-family:var(--caps);font-weight:600;font-size:11.5px;letter-spacing:.2em;color:rgba(220,196,142,.85);margin:10px 0 26px}
+  footer .copy{color:var(--gold-lt);border-bottom-color:rgba(220,196,142,.5);margin-top:30px;font-size:14.5px}
+
+  .toast{position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--env);color:var(--ivory);padding:12px 20px;border-radius:2px;font-size:15px;opacity:0;transition:.25s;pointer-events:none;z-index:30}
+  .toast.on{opacity:1;transform:translate(-50%,0)}
+  .bgm{position:fixed;z-index:8;top:calc(14px + env(safe-area-inset-top,0px));right:max(14px,calc(50% - 206px));width:38px;height:38px;border-radius:50%;
+       border:1px solid rgba(220,196,142,.55);background:rgba(31,59,53,.78);color:var(--gold-lt);cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(4px)}
+  .bgm svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+  .bgm .on{display:none}.bgm.playing .on{display:block}.bgm.playing .off{display:none}
+  .bgm:focus-visible{outline:2px solid var(--gold-lt);outline-offset:3px}
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
+  /* 작은 아이폰(mini, SE) */
+  @media (max-width:375px){
+    section{padding-inline:22px}
+    .who .ko{font-size:27px}
+    .bigdate{font-size:50px}
+    .person .name{font-size:22px}
+    .greeting{font-size:15.5px}
+    .links a,.links button{font-size:13.5px}
+  }
+</style>
+</head>
+<body>
+
+<main class="card notranslate" translate="no">
+  <!-- 1. 봉투 -->
+  <section class="intro" id="intro" aria-label="Invitation">
+    <p class="label">Wedding Invitation</p>
+    <div class="env" id="env">
+      <div class="env-back"></div>
+      <div class="letter" aria-hidden="true">
+        <span class="l1">The Wedding of</span>
+        <span class="l2" id="letterNames"></span>
+        <span class="l-rule"></span>
+        <span class="l3 num" id="letterDate"></span>
+      </div>
+      <div class="env-front"></div>
+      <div class="flap"></div>
+      <button class="seal" id="seal" type="button" data-i18n-label="openLabel">
+        <svg viewBox="0 0 54 54" aria-hidden="true">
+          <circle cx="27" cy="27" r="19" fill="none" stroke="rgba(238,215,198,.35)" stroke-width=".8"/>
+          <text id="monoA" x="19.5" y="32.5" font-size="15" text-anchor="middle"></text>
+          <text x="27" y="30.5" font-size="8" text-anchor="middle" opacity=".7">&amp;</text>
+          <text id="monoB" x="34.5" y="32.5" font-size="15" text-anchor="middle"></text>
+        </svg>
+      </button>
+    </div>
+    <p class="tap" data-i18n="tap"></p>
+    <p class="scroll-cue" aria-hidden="true">Scroll</p>
+  </section>
+
+  <!-- 2. 이름 -->
+  <section class="hero" aria-label="Names">
+    <div class="who"><p class="en" id="gEn"></p><p class="ko" id="gName"></p></div>
+    <p class="amp" aria-hidden="true">&amp;</p>
+    <div class="who"><p class="en" id="bEn"></p><p class="ko" id="bName"></p></div>
+    <p class="hero-when num" id="heroWhen"></p>
+    <p class="hero-where" id="heroWhere"></p>
+  </section>
+
+  <!-- 2-1. 대표 사진 -->
+  <figure class="banner" id="banner"></figure>
+
+  <!-- 3. 날짜 -->
+  <section class="tinted" aria-labelledby="t-when">
+    <p class="label">The Wedding Day</p>
+    <p class="bigdate num" id="bigDate"></p>
+    <h2 class="when-day" id="t-when"></h2>
+    <p class="when-time" id="whenTime"></p>
+    <div class="cal">
+      <p class="cal-head num" id="calHead"></p>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+    <p class="dday" id="dday"></p>
+    <a class="textlink" id="gcal" target="_blank" rel="noopener" data-i18n="gcal"></a>
+  </section>
+
+  <!-- 4. 인사말 -->
+  <section aria-labelledby="t-greet">
+    <p class="label">Invitation</p>
+    <h2 id="t-greet" data-i18n="greetTitle"></h2>
+    <p class="greeting" id="greeting"></p>
+  </section>
+
+  <!-- 5. 두 사람 -->
+  <section class="couple" aria-label="Families">
+    <div class="pair">
+      <div class="person" id="pGroom"></div>
+      <div class="bar" aria-hidden="true"></div>
+      <div class="person" id="pBride"></div>
+    </div>
+  </section>
+
+  <!-- 6. 갤러리 -->
+  <section aria-labelledby="t-gal">
+    <p class="label">Gallery</p>
+    <h2 id="t-gal" data-i18n="galTitle"></h2>
+    <div class="gallery" id="gallery"></div>
+    <p class="g-hint" data-i18n="galHint"></p>
+  </section>
+
+  <!-- 7. 안내 · 오시는 길 -->
+  <section class="tinted" aria-labelledby="t-info">
+    <p class="label">Information</p>
+    <h2 id="t-info" data-i18n="infoTitle"></h2>
+    <dl class="info" id="notice"></dl>
+  </section>
+
+  <section aria-labelledby="t-way">
+    <p class="label">Location</p>
+    <h2 id="t-way" data-i18n="wayTitle"></h2>
+    <p class="place" id="placeName"></p>
+    <p class="addr" id="addr"></p>
+    <p class="addr num" id="tel"></p>
+    <p class="addr-ko" id="addrKo" hidden></p>
+    <div class="links" id="maplinks"></div>
+    <dl class="info route" id="route"></dl>
+  </section>
+
+  <!-- 8. 계좌 -->
+  <section class="tinted" aria-labelledby="t-acct">
+    <p class="label">With Heart</p>
+    <h2 id="t-acct" data-i18n="acctTitle"></h2>
+    <p class="acct-intro" id="acctIntro"></p>
+    <div id="accounts"></div>
+  </section>
+
+  <footer>
+    <p class="fin">Thank you</p>
+    <p class="sig" id="sig"></p>
+    <p id="thanks"></p>
+    <button class="copy" type="button" id="copyLink" data-i18n="copyLink"></button>
+  </footer>
+</main>
+
+<div class="lang notranslate" translate="no" role="group" aria-label="Language">
+  <button type="button" data-lang="ko" aria-pressed="true">한국어</button>
+  <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+</div>
+<button class="bgm" id="bgm" type="button" aria-pressed="false">
+  <svg class="off" viewBox="0 0 24 24"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/><path d="M3 3l18 18"/></svg>
+  <svg class="on" viewBox="0 0 24 24"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></svg>
+</button>
+<canvas id="dust" aria-hidden="true"></canvas>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+  <div class="lb-top"><span id="lbCount" class="num"></span><button class="lb-btn" id="lbClose" type="button">✕</button></div>
+  <div class="lb-stage" id="lbStage"></div>
+  <div class="lb-nav"><button class="lb-btn" id="lbPrev" type="button">‹</button><button class="lb-btn" id="lbNext" type="button">›</button></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ============ 여기만 수정하면 전체가 바뀝니다 ============
+   ko = 한국어 화면, ja = 일본어 화면에 쓰이는 값입니다. */
+const CONFIG = {
+  date: "2027-07-03", time: "13:10",                       // 한국 시간
+  groom: { en: "CHUNGYONG", ko: "정충용", ja: "チョン・チュンヨン",
+           father: { ko: "", ja: "" }, mother: { ko: "", ja: "" }, order: { ko: "장남", ja: "長男" } },
+  bride: { en: "SOYEON",    ko: "이소연", ja: "イ・ソヨン",
+           father: { ko: "", ja: "" }, mother: { ko: "", ja: "" }, order: { ko: "장녀", ja: "長女" } },
+  greeting: {
+    ko: ["숲과 하늘이 맞닿은 곳에서", "저희 두 사람이 한 길을 걷기 시작합니다.", "귀한 걸음 하시어", "첫걸음을 축복해 주시면 감사하겠습니다."],
+    ja: ["森と空がふれあうこの場所で", "わたしたちふたりは", "同じ道を歩みはじめます", "ご多用中まことに恐縮ではございますが", "門出を見守っていただけましたら幸いです"]
+  },
+  place: {
+    name: { ko: "포레스트 한울 웨딩", ja: "フォレスト・ハンウル ウェディング" }, hall: { ko: "포레스트홀", ja: "フォレストホール" },
+    address: { ko: "충북 진천군 진천읍 문화로29", ja: "韓国 忠清北道 鎮川郡 鎮川邑 文化路29" },
+    tel: "043-534-2080", search: "포레스트한울 진천"
+  },
+  notice: [
+    { t: { ko: "식사", ja: "お食事" }, d: { ko: "뷔페로 준비했습니다. 예식 30분 전부터 2시간 30분 동안 이용하실 수 있습니다.", ja: "ビュッフェ形式でご用意しております。挙式の30分前から2時間30分ご利用いただけます。" } },
+    { t: { ko: "폐백", ja: "ペベク" },  d: { ko: "폐백은 진행하지 않습니다.", ja: "ペベク（韓国式の伝統的な挨拶の儀）は行いません。" } },
+    { t: { ko: "주차", ja: "駐車場" },  d: { ko: "", ja: "" } }
+  ],
+  route: [
+    { t: { ko: "자가용", ja: "お車" }, d: { ko: "내비게이션에 ‘포레스트 한울’ 또는 ‘진천읍 문화로29’를 입력하세요.", ja: "カーナビに「포레스트 한울」または「진천읍 문화로29」と入力してください。" } },
+    { t: { ko: "대중교통", ja: "公共交通機関" }, d: { ko: "", ja: "" } }
+  ],
+  photos: {
+    banner: "photos/banner.jpg",
+    // pos = 작은 칸에서 보여 줄 부분 (가로 % 세로 %). 크게 보기에서는 사진 전체가 보입니다.
+    gallery: [
+      { src: "photos/01.jpg", pos: "42% 40%" },
+      { src: "photos/02.jpg", pos: "14% 50%" },
+      { src: "photos/03.jpg", pos: "52% 40%" },
+      { src: "photos/04.jpg", pos: "50% 30%" },
+      { src: "photos/05.jpg", pos: "50% 60%" },
+      { src: "photos/06.jpg", pos: "50% 50%" }     // 샘플 그림 — 사진이 생기면 교체
+    ]
+  },
+  music: { src: "music.mp3", start: 0, volume: 1 },   // 아이폰은 볼륨 조절을 무시하므로 파일 자체 음량을 낮춰 둠
+  accounts: {
+    groom: [ { who: { ko: "신랑 정충용", ja: "新郎 チョン・チュンヨン" }, bank: "", num: "" },
+             { who: { ko: "신랑 아버지", ja: "新郎の父" }, bank: "", num: "" },
+             { who: { ko: "신랑 어머니", ja: "新郎の母" }, bank: "", num: "" } ],
+    bride: [ { who: { ko: "신부 이소연", ja: "新婦 イ・ソヨン" }, bank: "", num: "" },
+             { who: { ko: "신부 아버지", ja: "新婦の父" }, bank: "", num: "" },
+             { who: { ko: "신부 어머니", ja: "新婦の母" }, bank: "", num: "" } ]
+  }
+};
+
+/* 화면 문구 */
+const TXT = {
+  ko: { tap:"봉인을 눌러 청첩장을 열어 주세요", openLabel:"청첩장 열기", gcal:"캘린더에 일정 저장", greetTitle:"소중한 분들을 초대합니다",
+        galTitle:"우리의 순간", galHint:"사진을 누르면 크게 볼 수 있어요", infoTitle:"예식 안내", wayTitle:"오시는 길", acctTitle:"마음 전하실 곳",
+        copyLink:"청첩장 링크 복사", groomSide:"신랑측", brideSide:"신부측", acctSuffix:" 계좌번호", copy:"복사",
+        acctIntro:"참석이 어려우신 분들을 위해<br>계좌번호를 안내드립니다.", thanks:"귀한 걸음으로 축복해 주셔서 감사합니다.",
+        kakao:"카카오맵", naver:"네이버 지도", google:"구글 지도", copyAddr:"주소 복사",
+        todo:"확인 필요", father:"아버지", mother:"어머니", of:"의", dow:["일","월","화","수","목","금","토"],
+        day:(y,m,d,w)=>`${y}년 ${m}월 ${d}일 ${w}요일`, time:(h,mi)=>`${h<12?"오전":"오후"} ${h%12||12}시${mi?` ${mi}분`:""}`,
+        calHead:(y,m)=>`${y}. ${String(m).padStart(2,"0")}`,
+        dday:n=> n>0?`결혼식까지 <b class="num">D-${n}</b>`: n===0?`오늘, 저희 결혼합니다`:`함께한 지 <b class="num">${-n+1}</b>일째`,
+        copied:"복사했어요", empty:"아직 입력되지 않은 정보예요", linkCopied:"링크를 복사했어요", addrCopied:"주소를 복사했어요",
+        taxi:"", music:["배경음악 재생","배경음악 끄기"], view:"크게 보기", close:"닫기", prev:"이전 사진", next:"다음 사진" },
+  ja: { tap:"封蝋に触れて 招待状をお開きください", openLabel:"招待状を開く", gcal:"カレンダーに登録する", greetTitle:"ご招待",
+        galTitle:"ギャラリー", galHint:"写真をタップすると拡大してご覧いただけます", infoTitle:"ご案内", wayTitle:"アクセス", acctTitle:"お祝いのお振込先",
+        copyLink:"招待状のリンクをコピー", groomSide:"新郎側", brideSide:"新婦側", acctSuffix:" 口座", copy:"コピー",
+        acctIntro:"ご出席が難しい方のために<br>お振込先をご案内いたします<br>（韓国の銀行口座です）", thanks:"皆様のご来場を心よりお待ちしております。",
+        kakao:"カカオマップ", naver:"NAVER Map", google:"Google マップ", copyAddr:"住所をコピー",
+        todo:"確認中", father:"父", mother:"母", of:"の", dow:["日","月","火","水","木","金","土"],
+        day:(y,m,d,w)=>`${y}年${m}月${d}日（${w}）`, time:(h,mi)=>`${h<12?"午前":"午後"}${h%12||12}時${mi?`${mi}分`:""}`,
+        calHead:(y,m)=>`${y}. ${String(m).padStart(2,"0")}`,
+        dday:n=> n>0?`結婚式まで あと<b class="num">${n}</b>日`: n===0?`本日 わたしたちは結婚します`:`結婚して <b class="num">${-n+1}</b>日目`,
+        copied:"コピーしました", empty:"まだ入力されていない情報です", linkCopied:"リンクをコピーしました", addrCopied:"住所をコピーしました",
+        taxi:"タクシーでは運転手の方に<br>下の韓国語住所をお見せください", music:["BGMを再生","BGMを止める"], view:"拡大", close:"閉じる", prev:"前の写真", next:"次の写真" }
+};
+/* ======================================================= */
+
+const $ = id => document.getElementById(id);
+document.documentElement.setAttribute("translate","no");      // 브라우저 자동 번역 끄기
+document.documentElement.classList.add("notranslate");
+const p2 = n => String(n).padStart(2,"0");
+const [Y,Mo,Dd]=CONFIG.date.split("-").map(Number), [hh,mm]=CONFIG.time.split(":").map(Number);
+const T = new Date(`${CONFIG.date}T${CONFIG.time}:00+09:00`);
+const W = new Date(Y,Mo-1,Dd), EDOW=["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const G=CONFIG.groom, B=CONFIG.bride;
+let L = "ko";
+const tx = k => TXT[L][k];
+const pick = v => (v && typeof v==="object") ? (v[L] || v.ko || "") : (v || "");
+const todo = () => `<span class="todo">${tx("todo")}</span>`;
+const orTodo = v => v || todo();
+const hole = t => `<span class="todo">${t}</span>`;
+
+/* 언어와 관계없는 부분 */
+$("monoA").textContent = G.en[0]; $("monoB").textContent = B.en[0];
+$("gEn").textContent = G.en; $("bEn").textContent = B.en;
+const EMONS=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+const cap = w => w.charAt(0)+w.slice(1).toLowerCase();
+$("letterNames").textContent = `${cap(G.en)} & ${cap(B.en)}`;
+$("letterDate").textContent = `${p2(Dd)} · ${EMONS[Mo-1]} · ${Y}`;
+const h12 = `${hh%12||12}:${p2(mm)} ${hh<12?"AM":"PM"}`;
+$("heroWhen").textContent = `${Y}.${p2(Mo)}.${p2(Dd)} ${EDOW[W.getDay()]} ${h12}`;
+$("bigDate").innerHTML = `${p2(Mo)}<span>·</span>${p2(Dd)}`;
+$("sig").textContent = `${G.en} & ${B.en} · ${Y}.${p2(Mo)}.${p2(Dd)}`;
+(function(){
+  const z=d=>d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+  const q=new URLSearchParams({action:"TEMPLATE",text:`${G.ko} ♥ ${B.ko} Wedding`,dates:`${z(T)}/${z(new Date(+T+2*36e5))}`,location:`${CONFIG.place.name.ko} ${CONFIG.place.hall.ko}, ${CONFIG.place.address.ko}`});
+  $("gcal").href="https://calendar.google.com/calendar/render?"+q;
+})();
+
+/* 언어별로 다시 그리는 부분 */
+function render(){
+  document.documentElement.lang = L;
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = tx(el.dataset.i18n));
+  $("seal").setAttribute("aria-label", tx("openLabel"));
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang===L));
+
+  $("gName").textContent = pick(G); $("bName").textContent = pick(B);
+  const venue = L==="ko" ? `${pick(CONFIG.place.name)} · ${pick(CONFIG.place.hall)}` : `${pick(CONFIG.place.name)}<br>${pick(CONFIG.place.hall)}`;
+  $("heroWhere").innerHTML = venue;
+
+  $("t-when").textContent = tx("day")(Y,Mo,Dd,tx("dow")[W.getDay()]);
+  $("whenTime").textContent = tx("time")(hh,mm);
+  $("calHead").textContent = tx("calHead")(Y,Mo);
+  const first=new Date(Y,Mo-1,1).getDay(), last=new Date(Y,Mo,0).getDate();
+  let h = tx("dow").map((d,i)=>`<span class="dow ${i==0?"sun":""}">${d}</span>`).join("");
+  for(let i=0;i<first;i++) h+="<span></span>";
+  for(let d=1; d<=last; d++){ const dow=(first+d-1)%7; h+=`<span class="num ${d===Dd?"day-on":dow==0?"sun":""}">${d}</span>`; }
+  $("calGrid").innerHTML=h;
+  tick();
+
+  $("greeting").innerHTML = CONFIG.greeting[L].join("<br>");
+  const person = (p,side) => {
+    const parents = L==="ko"
+      ? `${pick(p.father)||hole(tx("father"))} · ${pick(p.mother)||hole(tx("mother"))}<br><span class="role">의 ${pick(p.order)}</span>`
+      : `${tx("father")} ${pick(p.father)||hole("◯◯")}<br>${tx("mother")} ${pick(p.mother)||hole("◯◯")}`;
+    const role = L==="ko" ? "" : `<p class="role">${tx("of")}${pick(p.order)}</p>`;
+    return `<p class="parents">${parents}</p>${role}<p class="name">${pick(p)}</p>`;
+  };
+  $("pGroom").innerHTML = person(G); $("pBride").innerHTML = person(B);
+
+  $("notice").innerHTML = CONFIG.notice.map(n=>`<div><dt>${pick(n.t)}</dt><dd>${orTodo(pick(n.d))}</dd></div>`).join("");
+  $("placeName").innerHTML = venue;
+  $("addr").textContent = pick(CONFIG.place.address);
+  $("tel").textContent = "Tel. " + (L==="ja" ? "+82-43-534-2080" : CONFIG.place.tel);
+  const ak=$("addrKo"); ak.hidden = L!=="ja"; ak.innerHTML = L==="ja" ? `${tx("taxi")}<br><b>${CONFIG.place.address.ko}</b>` : "";
+  const s = encodeURIComponent(CONFIG.place.search), a = encodeURIComponent(CONFIG.place.address.ko);
+  const maps = L==="ko"
+    ? [["kakao",`https://map.kakao.com/link/search/${s}`],["naver",`https://map.naver.com/p/search/${s}`]]
+    : [["google",`https://www.google.com/maps/search/?api=1&query=${a}`],["naver",`https://map.naver.com/p/search/${s}`]];
+  $("maplinks").innerHTML = maps.map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${tx(k)}</a>`).join("") + `<button type="button" id="copyAddr">${tx("copyAddr")}</button>`;
+  $("copyAddr").onclick = () => copy(CONFIG.place.address.ko, tx("addrCopied"));
+  $("route").innerHTML = CONFIG.route.map(r=>`<div><dt>${pick(r.t)}</dt><dd>${orTodo(pick(r.d))}</dd></div>`).join("");
+
+  $("acctIntro").innerHTML = tx("acctIntro");
+  $("accounts").innerHTML = [["groom","groomSide"],["bride","brideSide"]].map(([k,lab])=>`
+    <details><summary>${tx(lab)}${tx("acctSuffix")}</summary>
+      ${CONFIG.accounts[k].map(x=>{const v=x.bank&&x.num?`${x.bank} ${x.num}`:"";return `<div class="acct"><div><div class="who">${pick(x.who)}</div><div class="no num">${v||todo()}</div></div><button class="copy" type="button" data-copy="${v}">${tx("copy")}</button></div>`}).join("")}
+    </details>`).join("");
+  $("thanks").textContent = tx("thanks");
+
+  document.querySelectorAll(".g-item").forEach((b,i)=>b.setAttribute("aria-label",`${i+1} ${tx("view")}`));
+  $("lbClose").setAttribute("aria-label",tx("close")); $("lbPrev").setAttribute("aria-label",tx("prev")); $("lbNext").setAttribute("aria-label",tx("next"));
+  setBtn(!bgm.paused);
+}
+function tick(){ const n=Math.ceil((T-new Date())/864e5); $("dday").innerHTML = tx("dday")(n); }
+setInterval(tick, 60000);
+
+/* 언어 선택: 주소 끝 #ja 또는 휴대폰 언어가 일본어면 일본어로 시작 */
+function setLang(l){ L = l==="ja" ? "ja" : "ko"; try{ localStorage.setItem("inv-lang", L); }catch(e){} render(); }
+document.querySelectorAll(".lang button").forEach(b => b.onclick = e => { e.stopPropagation(); setLang(b.dataset.lang); });
+
+/* 사진 */
+function photo(box, src, label, alt, pos){
+  box.insertAdjacentHTML("afterbegin", `<div class="ph">${label}</div>`);
+  if(!src) return;
+  const img=document.createElement("img"); img.alt=alt; img.loading="lazy"; img.decoding="async";
+  img.onload=()=>{ const ph=box.querySelector(".ph"); if(ph) ph.remove(); };
+  img.onerror=()=>img.remove();
+  if(pos) img.style.objectPosition=pos;
+  img.src=src; box.prepend(img);
+}
+photo($("banner"), CONFIG.photos.banner, "<b>MAIN PHOTO</b>", `${G.en} & ${B.en}`);
+const GAL = CONFIG.photos.gallery;
+$("gallery").innerHTML = GAL.map((_,i)=>`<button class="g-item" type="button" data-i="${i}"></button>`).join("");
+const gsrc = g => typeof g==="string" ? {src:g} : g;
+document.querySelectorAll(".g-item").forEach((b,i)=>{ const g=gsrc(GAL[i]); photo(b, g.src, `<b>${p2(i+1)}</b>`, `Wedding photo ${i+1}`, g.pos); });
+const lb=$("lightbox"); let cur=0, lastFocus=null;
+function showLB(i){
+  cur=(i+GAL.length)%GAL.length; const st=$("lbStage"); st.innerHTML="";
+  const t=document.querySelector(`.g-item[data-i="${cur}"] img`);
+  if(t){ const im=new Image(); im.src=t.src; im.alt=t.alt; st.appendChild(im); } else st.innerHTML=`<div class="ph"><b>${p2(cur+1)}</b></div>`;
+  $("lbCount").textContent=`${p2(cur+1)} / ${p2(GAL.length)}`;
+}
+function openLB(i){ lastFocus=document.activeElement; showLB(i); lb.hidden=false; document.body.style.overflow="hidden"; $("lbClose").focus(); }
+function closeLB(){ lb.hidden=true; document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); }
+$("gallery").addEventListener("click",e=>{const b=e.target.closest(".g-item"); if(b) openLB(+b.dataset.i);});
+$("lbClose").onclick=closeLB; $("lbPrev").onclick=()=>showLB(cur-1); $("lbNext").onclick=()=>showLB(cur+1);
+lb.addEventListener("click",e=>{ if(e.target===lb||e.target===$("lbStage")) closeLB(); });
+document.addEventListener("keydown",e=>{ if(lb.hidden) return; if(e.key==="Escape") closeLB(); if(e.key==="ArrowLeft") showLB(cur-1); if(e.key==="ArrowRight") showLB(cur+1); });
+let sx=null; lb.addEventListener("touchstart",e=>{sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener("touchend",e=>{ if(sx===null) return; const dx=e.changedTouches[0].clientX-sx; if(Math.abs(dx)>40) showLB(cur+(dx<0?1:-1)); sx=null; });
+
+/* 배경음악: 봉인을 누르면 한 번 재생, 반복 없음 */
+const bgm = new Audio(CONFIG.music.src), bgmBtn = $("bgm");
+bgm.loop=false; bgm.preload="auto"; bgm.volume=CONFIG.music.volume;
+let autoTried=false;
+function setBtn(on){ bgmBtn.classList.toggle("playing",on); bgmBtn.setAttribute("aria-pressed",on); bgmBtn.setAttribute("aria-label",TXT[L].music[on?1:0]); }
+bgm.addEventListener("play",()=>setBtn(true)); bgm.addEventListener("pause",()=>setBtn(false));
+bgm.addEventListener("ended",()=>{ setBtn(false); bgm.currentTime=CONFIG.music.start||0; });
+function playOnce(e){ if(autoTried||!bgm.paused||(e&&e.target.closest&&e.target.closest("#bgm,.lang"))) return; autoTried=true; bgm.play().catch(()=>{autoTried=false;}); }
+bgmBtn.onclick=e=>{ e.stopPropagation(); autoTried=true; bgm.paused?bgm.play().catch(()=>{}):bgm.pause(); };
+["click","touchend","keydown"].forEach(ev=>document.addEventListener(ev,playOnce,{passive:true}));
+
+/* 봉인 효과: 봉인 자리에서 빛의 고리가 화면 밖까지 퍼지고, 금빛 조각이 사방으로 흩어진 뒤 위에서 천천히 내려옴 */
+function sealBurst(cx, cy){
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const c=$("dust"), x=c.getContext("2d"), r=Math.min(devicePixelRatio||1,2), w=innerWidth, h=innerHeight;
+  c.width=w*r; c.height=h*r; x.setTransform(r,0,0,r,0,0);
+  const reach=Math.hypot(Math.max(cx,w-cx),Math.max(cy,h-cy));
+  const rnd=(a,b)=>a+Math.random()*(b-a), cols=["#E9D39F","#F6EACB","#CFAE6E"];
+  const flakes=Array.from({length:46},()=>{const a=rnd(0,Math.PI*2), v=rnd(3.5,9.5);
+    return {x:cx,y:cy,vx:Math.cos(a)*v,vy:Math.sin(a)*v-1.2,s:rnd(1,2.6),rot:rnd(0,6),vr:rnd(-.15,.15),t0:0,life:rnd(1500,2600),c:cols[Math.random()*3|0]};});
+  const fall=Array.from({length:22},()=>({x:rnd(0,w),y:rnd(-h*.4,-10),vx:rnd(-.25,.25),vy:rnd(.6,1.3),s:rnd(1,2.2),rot:rnd(0,6),vr:rnd(-.05,.05),t0:rnd(500,1400),life:rnd(2600,3800),c:cols[Math.random()*3|0]}));
+  const T0=performance.now();
+  (function loop(now){
+    const t=now-T0; x.clearRect(0,0,w,h);
+    // 빛의 고리 두 겹 + 은은한 광채
+    [[0,1100],[180,1300]].forEach(([d,dur])=>{ const k=(t-d)/dur; if(k<0||k>1) return; const e=1-Math.pow(1-k,3);
+      x.beginPath(); x.arc(cx,cy,24+e*reach,0,Math.PI*2); x.strokeStyle=`rgba(233,211,159,${.55*(1-k)})`; x.lineWidth=1.5+2*(1-k); x.stroke(); });
+    if(t<700){ const k=t/700, g=x.createRadialGradient(cx,cy,0,cx,cy,90+160*k); g.addColorStop(0,`rgba(246,234,203,${.45*(1-k)})`); g.addColorStop(1,"rgba(246,234,203,0)"); x.fillStyle=g; x.fillRect(0,0,w,h); }
+    let alive=t<1500;
+    const draw=p=>{ x.save(); x.translate(p.x,p.y); x.rotate(p.rot); x.fillStyle=p.c; x.fillRect(-p.s,-p.s/2.4,p.s*2,p.s/1.2); x.restore(); };
+    for(const p of flakes){ if(t>p.life) continue; alive=true; p.vx*=.975; p.vy=p.vy*.975+.06; p.x+=p.vx; p.y+=p.vy; p.rot+=p.vr;
+      x.globalAlpha=Math.min(.9,(p.life-t)/500); draw(p); }
+    for(const p of fall){ const lt=t-p.t0; if(lt<0){alive=true;continue;} if(lt>p.life) continue; alive=true;
+      p.x+=p.vx+Math.sin((lt+p.rot*300)/700)*.35; p.y+=p.vy; p.rot+=p.vr; x.globalAlpha=.75*Math.min(1,lt/400,(p.life-lt)/700); draw(p); }
+    x.globalAlpha=1;
+    if(alive) requestAnimationFrame(loop); else x.clearRect(0,0,w,h);
+  })(T0);
+}
+const env=$("env");
+const CARD_SHOWN = 1700;   // 봉투가 열리고 카드가 다 올라오기까지 (ms)
+const READ_TIME  = 2500;   // 카드를 읽을 시간 — 이 시간이 지나면 이름 화면으로 이동 (ms)
+function openEnv(){
+  if(env.classList.contains("open")) return;
+  const sr=$("seal").getBoundingClientRect();
+  playOnce(); sealBurst(sr.left+sr.width/2, sr.top+sr.height/2); env.classList.add("open"); $("intro").classList.add("opened");
+  // 봉투가 다 열리고 잠시 뒤, 이름·날짜 화면으로 한 번 부드럽게 이동 (그 사이 직접 스크롤했으면 건너뜀)
+  const y0 = window.scrollY;
+  setTimeout(()=>{
+    if (Math.abs(window.scrollY - y0) > 40) return;
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const hero = document.querySelector(".hero");
+    const top = hero.getBoundingClientRect().top + window.scrollY - Math.max(0,(window.innerHeight - hero.offsetHeight)/2);
+    if (reduce) { window.scrollTo(0, top); return; }
+    // 1.4초 동안 천천히 내려가기
+    const from = window.scrollY, dist = top - from, dur = 1400, t0 = performance.now();
+    const ease = t => t<.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
+    (function step(now){ const t=Math.min(1,(now-t0)/dur); window.scrollTo(0, from + dist*ease(t)); if(t<1) requestAnimationFrame(step); })(t0);
+  }, CARD_SHOWN + READ_TIME);
+}
+$("seal").onclick=e=>{ e.stopPropagation(); openEnv(); };
+env.addEventListener("click", openEnv);
+
+/* 상단 버튼: 아래로 읽는 동안에는 숨기고, 위로 올리거나 맨 위에서는 보이게 */
+(function(){
+  let lastY=window.scrollY, ticking=false;
+  const ctl=[document.querySelector(".lang"), $("bgm")];
+  addEventListener("scroll",()=>{ if(ticking) return; ticking=true; requestAnimationFrame(()=>{
+    const y=window.scrollY, down=y>lastY+4, up=y<lastY-4;
+    if(y<120 || up) ctl.forEach(c=>c.classList.remove("ctl-hide"));
+    else if(down) ctl.forEach(c=>c.classList.add("ctl-hide"));
+    lastY=y; ticking=false; }); },{passive:true});
+})();
+
+/* 복사 */
+function toast(msg){const t=$("toast");t.textContent=msg;t.classList.add("on");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("on"),1800);}
+function copy(text,msg){
+  if(!text){toast(tx("empty"));return;}
+  const fallback=()=>{const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast(msg);}catch(e){toast(text);}ta.remove();};
+  navigator.clipboard ? navigator.clipboard.writeText(text).then(()=>toast(msg),fallback) : fallback();
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-copy]"); if(b) copy(b.dataset.copy,tx("copied"));});
+$("copyLink").onclick=()=>copy(location.href.split("#")[0], tx("linkCopied"));
+
+/* 시작 언어 */
+let start = /^ja\b/i.test(navigator.language||"") ? "ja" : "ko";        // 휴대폰 언어 기준
+try{ const s=localStorage.getItem("inv-lang"); if(s) start=s; }catch(e){}   // 직접 고른 언어가 우선
+if(/^#ja$/i.test(location.hash)) start="ja";                               // 링크 끝 #ja → 일본어
+if(/^#ko$/i.test(location.hash)) start="ko";
+setLang(start);
+</script>
+
+</body>
+</html>
